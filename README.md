@@ -46,6 +46,9 @@ MIT
 
 # :dizzy: Change Log
 
+### 0.1.1 - June 4, 2017
+* fixes bin script (lulz)
+
 ### 0.1.0 - June 4, 2017
 * initial release
 
