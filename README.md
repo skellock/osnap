@@ -1,6 +1,6 @@
 # :camera: osnap!
 
-Screenshot your iOS/Android sim and save to a file or on your clipboard.
+A CLI for grabbing ios/android screenshots and saving to your clipboard or filesystem.
 
 # :writing_hand: Usage
 

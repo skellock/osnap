@@ -10,7 +10,7 @@
     "tempfile": "^2.0.0",
     "which": "^1.2.14"
   },
-  "description": "Screenshot your iOS/Android sim and save to a file or on your clipboard.",
+  "description": "A CLI for grabbing ios/android screenshots and saving to your clipboard or filesystem.",
   "devDependencies": {
     "@types/minimist": "^1.2.0",
     "@types/node": "^7.0.27",
