@@ -46,5 +46,6 @@ MIT
 
 # :dizzy: Change Log
 
-* 0.0.1 - Reserved the npm name.
+### 0.1.0 - June 4, 2017
+* initial release
 
