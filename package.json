@@ -24,7 +24,9 @@
     "typescript": "^2.3.4"
   },
   "files": [
-    "bin/osnap.js"
+    "bin/osnap.js",
+    "macos/pbcopyimg",
+    "README.md"
   ],
   "keywords": [
     "ios",
@@ -34,12 +36,12 @@
   "license": "MIT",
   "name": "osnap",
   "scripts": {
-    "start": "ts-node bin/osnap.ts",
     "build": "tsc -p .",
     "build:mac": "gcc -Wall -O3 -ObjC -framework Foundation -framework AppKit -o macos/pbcopyimg macos/pbcopyimg.m",
-    "watch": "tsc -p . -w",
+    "clean": "rimraf {bin,src}/**/*.{d.ts,js}",
     "pretty": "prettier --no-semi --single-quote --print-width 100 --parser typescript --write src/**/*.ts bin/**/*.ts",
-    "clean": "rimraf {bin,src}/**/*.{d.ts,js}"
+    "start": "ts-node bin/osnap.ts",
+    "watch": "tsc -p . -w"
   },
   "version": "0.0.1"
 }
