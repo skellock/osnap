@@ -44,5 +44,5 @@
     "start": "ts-node bin/osnap.ts",
     "watch": "tsc -p . -w"
   },
-  "version": "0.0.1"
+  "version": "0.1.0"
 }
