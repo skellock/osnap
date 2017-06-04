@@ -43,5 +43,5 @@
     "pretty": "prettier --no-semi --single-quote --print-width 100 --parser typescript --write src/**/*.ts",
     "watch": "tsc -p . -w"
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
