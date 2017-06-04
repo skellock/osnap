@@ -1,43 +1,48 @@
-# 📸  osnap!
+# :camera: osnap!
 
 Screenshot your iOS/Android sim and save to a file or on your clipboard.
 
-# 🏌  Installing
+# :golfing_woman: Installing
 
 ```sh
 npm i -g osnap
 ```
 
-# ✍️  Usage
+### Requirements
+
+* macos 10.10 and up
+* node 6 and up
+* either android or xcode toolchains
+
+# :writing_hand: Usage
 
 ```sh
 osnap [ios|android] [-f filename.png] [-d android_device_id]
 ```
 
-🍎 On iOS
+:apple: With iOS
 ```sh
 osnap ios
 osnap ios -f sweet.png
 ```
 
-🤖 On Android
-
+:robot: With Android
 ```sh
 osnap android
 osnap android -f cool.png
 osnap android -f omg.png -d emulator-5554
 ```
 
-# Inspired By
+# :star2: Inspired By
 
 * http://www.alecjacobson.com/weblog/?p=3816
 * https://gist.github.com/mwender/49609a18be41b45b2ae4
 
-# License
+# :policeman: License
 
 MIT
 
-# Change Log
+# :dizzy: Change Log
 
-0.0.1 - Reserved the npm name.
+* 0.0.1 - Reserved the npm name.
 
