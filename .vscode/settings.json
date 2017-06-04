@@ -1,6 +1,6 @@
 {
   "files.exclude": {
-    "{bin,src}/*.{d.ts,js}": true
+    "src/*.{d.ts,js}": true
   },
   // "prettier.parser": "typescript",
   "prettier.semi": false,

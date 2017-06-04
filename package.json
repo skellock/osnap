@@ -1,7 +1,7 @@
 {
   "author": "Steve Kellock",
   "bin": {
-    "osnap": "bin/osnap.js"
+    "osnap": "bin/osnap"
   },
   "dependencies": {
     "execa": "^0.6.3",
@@ -24,7 +24,7 @@
     "typescript": "^2.3.4"
   },
   "files": [
-    "bin/*.js",
+    "bin/osnap",
     "macos/pbcopyimg",
     "README.md",
     "src/*.js"
@@ -40,9 +40,9 @@
     "build": "tsc -p .",
     "build:mac": "gcc -Wall -O3 -ObjC -framework Foundation -framework AppKit -o macos/pbcopyimg macos/pbcopyimg.m",
     "clean": "rimraf {bin,src}/**/*.{d.ts,js}",
-    "pretty": "prettier --no-semi --single-quote --print-width 100 --parser typescript --write src/**/*.ts bin/**/*.ts",
+    "pretty": "prettier --no-semi --single-quote --print-width 100 --parser typescript --write src/**/*.ts",
     "start": "ts-node bin/osnap.ts",
     "watch": "tsc -p . -w"
   },
-  "version": "0.1.0"
+  "version": "0.0.1"
 }
