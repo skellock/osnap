@@ -2,18 +2,6 @@
 
 Screenshot your iOS/Android sim and save to a file or on your clipboard.
 
-# :golfing_woman: Installing
-
-```sh
-npm i -g osnap
-```
-
-### Requirements
-
-* macos 10.10 and up
-* node 6 and up
-* either android or xcode toolchains
-
 # :writing_hand: Usage
 
 ```sh
@@ -32,6 +20,18 @@ osnap android
 osnap android -f cool.png
 osnap android -f omg.png -d emulator-5554
 ```
+
+# :golfing_woman: Installing
+
+```sh
+npm i -g osnap
+```
+
+# :baby_bottle: Requirements
+
+* macos 10.10 and up
+* node 6 and up
+* either android or xcode toolchains
 
 # :star2: Inspired By
 
