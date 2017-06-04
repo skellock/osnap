@@ -2,6 +2,8 @@
 
 A CLI for grabbing ios/android screenshots and saving to your clipboard or filesystem.
 
+<img src='https://raw.githubusercontent.com/skellock/osnap/master/osnap-demo.gif' />
+
 # :writing_hand: Usage
 
 ```sh
