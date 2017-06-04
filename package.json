@@ -24,9 +24,10 @@
     "typescript": "^2.3.4"
   },
   "files": [
-    "bin/osnap.js",
+    "bin/*.js",
     "macos/pbcopyimg",
-    "README.md"
+    "README.md",
+    "src/*.js"
   ],
   "keywords": [
     "ios",
