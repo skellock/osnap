@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "target": "es5",
+    "lib": ["es2015"],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  }
+}
