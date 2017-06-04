@@ -41,7 +41,6 @@
     "build:mac": "gcc -Wall -O3 -ObjC -framework Foundation -framework AppKit -o macos/pbcopyimg macos/pbcopyimg.m",
     "clean": "rimraf {bin,src}/**/*.{d.ts,js}",
     "pretty": "prettier --no-semi --single-quote --print-width 100 --parser typescript --write src/**/*.ts",
-    "start": "ts-node bin/osnap.ts",
     "watch": "tsc -p . -w"
   },
   "version": "0.0.1"
