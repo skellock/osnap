@@ -47,7 +47,7 @@ MIT
 # :dizzy: Change Log
 
 ### 1.0.1 - June 5, 2017
-* fixes `--filename` to be `-f` (#3)
+* fixes `--filename` to be `-f` - #3
 
 ### 1.0.0 - June 4, 2017
 * initial release
