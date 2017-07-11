@@ -81,15 +81,11 @@ export async function saveScreenshot(adb: string, perl: string, device: string, 
       const maxBuffer = 1024 * 1000 * 50 // 50 MB
 
       // create the processes needed in the chain
-      const adbProcess = execa(adb, ['-s', device, 'shell', 'screencap', '-p'], { maxBuffer })
-      const perlProcess = execa(perl, ['-pe', 's/\\x0D\\x0A/\\x0A/g'], { maxBuffer })
-
-      // hook up the chain: adb -> perl -> image.png
-      adbProcess.stdout.pipe(perlProcess.stdin)
-      perlProcess.stdout.pipe(createWriteStream(filename))
+      const adbProcess = execa(adb, ['-s', device, 'exec-out', 'screencap', '-p'], { maxBuffer })
+      adbProcess.stdout.pipe(createWriteStream(filename))
 
       // determine when we've ended
-      perlProcess.on('exit', exitCode => {
+      adbProcess.on('exit', exitCode => {
         if (exitCode === 0) {
           resolve()
         } else {
